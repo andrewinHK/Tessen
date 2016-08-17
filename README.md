@@ -1,12 +1,14 @@
 # Tessen - 鉄扇 - 
 
-Sensu monitor for chrome extension.
+_Many thanks to Nobuhito for the original version:_ nobuhito.sato@gmail.com
+
+## Sensu monitor for chrome extension.
 
 SensuのAPIを叩いてChromeのBrowserActionでバッジ表示するChrome拡張を作ってみました。
 
 ![screenshot](https://raw.github.com/nobuhito/tessen/master/screenshot.png)
 
-## usage
+### Usage
 
   1. Download zip file.
   2. Open tessen/tessen.js in zip.
@@ -24,3 +26,4 @@ SensuのAPIを叩いてChromeのBrowserActionでバッジ表示するChrome拡�
     - datacenter: Uchiwaを利用していればUchiwaで表示されるデータセンター名
   4. 再度Zipファイルに圧縮
   5. Chromeにインストール(要デベロッパーモード)
+
