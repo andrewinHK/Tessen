@@ -1,6 +1,6 @@
 # Tessen - 鉄扇 - 
 
-_Many thanks to Nobuhito for the original version:_ nobuhito.sato@gmail.com
+_Many thanks to Nobuhito for the [original version](https://github.com/nobuhito/Tessen):_ nobuhito.sato@gmail.com
 
 ## Sensu monitor for chrome extension.
 
