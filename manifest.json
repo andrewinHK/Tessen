@@ -1,31 +1,31 @@
 {
-    "name": "Tessen",
-    "version": "0.0.1",
-    "description": "Sensu monitor for chrome extension",
+    "name": "Chrome Sensu",
+    "version": "0.1.1",
+    "description": "Sensu monitoring for chrome extension",
     "icons": {
-        "48": "images/icon48.png",
-        "128": "images/icon128.png",
-        "32": "images/icon32.png",
-        "64": "images/icon64.png",
-        "19": "images/icon19.png"
+        "48": "images/sensu48.png",
+        "128": "images/sensu128.png",
+        "32": "images/sensu32.png",
+        "64": "images/sensu64.png",
+        "19": "images/sensu19.png"
     },
     "background": {
         "scripts": [
             "js/jquery.min.js",
-            "tessen/tessen.js",
-            "tessen/background.js"
+            "sensu/tessen.js",
+            "sensu/background.js"
         ]
     },
     "browser_action": {
       "default_icon": {
-        "19": "images/icon19.png",
-        "38": "images/icon38.png"
+        "19": "images/sensu-unknown19.png",
+        "38": "images/sensu-red38.png"
       },
-      "defaut_title": "Tessen",
-      "default_popup": "tessen/popup.html"
+      "defaut_title": "Sensu",
+      "default_popup": "sensu/popup.html"
     },
     "permissions": [
         "http://*/"
     ],
-    "manifest_version": 2
+    "manifest_version": 3
 }

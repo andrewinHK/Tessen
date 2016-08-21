@@ -1,6 +1,6 @@
-var sensuApiHost = "http://localhost";
+var sensuApiHost = "http://andrew-laptop";
 var sensuApiPort = "4567";
-var uchiwaHost = "http://localhost";
+var uchiwaHost = "http://andrew-laptop";
 var uchiwaPort = "3000";
 var datacenter = "sensu";
 
@@ -31,7 +31,7 @@ function setIconBadge(data) {
         if (data[i].check.status == 2) { crit += 1; }
         if (data[i].check.status == 1) { warn += 1; }
     }
-
+ 
     color = (crit > 0 )? "#EA5443": "#F9BA46";
 
     if (data.length > 0) {
