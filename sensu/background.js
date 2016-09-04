@@ -1,7 +1,8 @@
 document.addEventListener('DOMContentLoaded', function(e) {
-    // TODO: Alarmに変更する
+    // TODO: Alarm
     reloadIcon();
     setInterval(function() {
         reloadIcon();
     }, 1000 * 10);
 });
+

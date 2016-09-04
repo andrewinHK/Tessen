@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Chrome Sensu Options</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../css/jquery.min.js"></script>
+    <script src="../css/bootstrap.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="well">
+        <label>Uchiwa URL:</label>
+        <input type="url" class="form-control"
+               placeholder="http://localhost:3000" id="uchiwa">
+        <label>Sensu API URL:</label>
+        <input type="url" class="form-control"
+               placeholder="http://localhost:4567" id="sensu">
+    </div>
+    <label id="status"><i> </i></label>
+    <script type="text/javascript" src="chrome-sensu.js"></script>
+    <script type="text/javascript" src="options.js"></script>
+</body>
+</html>

@@ -3,29 +3,36 @@
     "version": "0.1.1",
     "description": "Sensu monitoring for chrome extension",
     "icons": {
+        "16": "images/sensu16.png",
         "48": "images/sensu48.png",
-        "128": "images/sensu128.png",
-        "32": "images/sensu32.png",
-        "64": "images/sensu64.png",
-        "19": "images/sensu19.png"
+        "128": "images/sensu128.png"
     },
     "background": {
         "scripts": [
             "js/jquery.min.js",
-            "sensu/tessen.js",
+            "sensu/chrome-sensu.js",
             "sensu/background.js"
         ]
     },
     "browser_action": {
-      "default_icon": {
-        "19": "images/sensu-unknown19.png",
-        "38": "images/sensu-red38.png"
-      },
-      "defaut_title": "Sensu",
-      "default_popup": "sensu/popup.html"
+        "default_icon": {
+            "19": "images/sensu-unknown19.png",
+            "38": "images/sensu-red38.png"
+        },
+        "defaut_title": "Sensu Monitoring Extension",
+        "default_popup": "sensu/popup.html"
+    },
+    "options_ui": {
+        "page": "sensu/options.html",
+        "chrome_style": true
     },
     "permissions": [
-        "http://*/"
+        "http://*/",
+        "storage",
+        "notifications"
     ],
-    "manifest_version": 3
+    "web_accessible_resources": [
+        "images/sensu48.png"
+    ],
+    "manifest_version": 2
 }

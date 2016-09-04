@@ -1,0 +1,10 @@
+*~
+#*
+*.bak
+*.BAK
+*.old
+*.orig
+.settings
+.project
+.idea
+.DS_Store
