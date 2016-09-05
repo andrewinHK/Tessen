@@ -31,8 +31,8 @@ alert mechanism) without taking up valuable screen real estate in the form of th
   - [ ] Dialog location
   - [ ] Dialog colour
   - [ ] Dialog stacking
-[ ] Language support
-[ ] Publish to Chrome Store as open source
+- [ ] Language support
+- [ ] Publish to Chrome Store as open source
 
 
 
