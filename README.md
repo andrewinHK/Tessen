@@ -22,14 +22,15 @@ alert mechanism) without taking up valuable screen real estate in the form of th
 
 ## Planned Enhancements
 
-[ ] Add a popup notification with configurable timeout
-[ ] Auto dismiss the popup dialog if problem is resolved
-[ ] Allow stashing from the popup
-[ ] Configuration window
-  [ ] Dialog timeout
-  [ ] Dialog location
-  [ ] Dialog colour
-  [ ] Dialog stacking
+- [ ] Add a popup notification with configurable timeout
+- [ ] Auto dismiss the popup dialog if problem is resolved
+- [ ] Allow stashing from the popup
+- [ ] Configuration window
+  - [x] URL entry
+  - [ ] Dialog timeout
+  - [ ] Dialog location
+  - [ ] Dialog colour
+  - [ ] Dialog stacking
 [ ] Language support
 [ ] Publish to Chrome Store as open source
 
